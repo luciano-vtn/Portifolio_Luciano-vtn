@@ -68,8 +68,8 @@ nav .menu__list {
   border-radius: 30%;
   padding: 2px 0px 2px 0px;
   font-weight: 900;
-  color: #eee8aa;
-  background: #040c52;
+  color: #f1f0e5;
+  background: #061283;
   transition: background-color 3s ease;
 }
 
@@ -77,8 +77,8 @@ nav .menu__list {
   border-radius: 30%;
   padding: 2px 0px 2px 0px;
   font-weight: 900;
-  color: #eee8aa;
-  background: #040c52;
+  color: #f1f0e5;
+  background: #19216e;
   transition: background-color 3s ease;
 }
 
@@ -86,8 +86,8 @@ nav .menu__list {
   border-radius: 30%;
   padding: 2px 0px 2px 0px;
   font-weight: 900;
-  color: #eee8aa;
-  background: #040c52;
+  color: #f1f0e5;
+  background: #19216e;
   transition: background-color 3s ease;
 }
 
@@ -95,17 +95,17 @@ nav .menu__list {
   border-radius: 30%;
   padding: 2px 0px 2px 0px;
   font-weight: 900;
-  color: #eee8aa;
-  background: #040c52;
+  color: #f1f0e5;
+  background: #19216e;
   transition: background-color 3s ease;
 }
 
 #contato_hover:hover {
   border-radius: 30%;
-  padding: 2px 0px 2px 0px;
+  padding: 5px 3px 5px 3px;
   font-weight: 900;
-  color: #e75e79;
-  background: #040c52;
+  color: #570202;
+  background: #8b95eb;
   transition: background-color 3s ease;
 }
 /*Sessão Title*/
@@ -152,19 +152,49 @@ section .title {
   margin: 30px;
 }
 
+#github a:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 500;
+  color: #f1f0e5;
+  background: #5c67c9;
+  transition: background-color 3s ease;
+}
+
+#linkedin a:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 500;
+  color: #f1f0e5;
+  background: #5c67c9;
+  transition: background-color 3s ease;
+}
+
+#curriculo a:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 500;
+  color: #f1f0e5;
+  background: #5c67c9;
+  transition: background-color 3s ease;
+}
+
 /*Sessão About*/
 
 section.about {
-  margin: 50px 20px 30px 0px;
-  padding-left: 20px;
-  height: 22%;
+  margin: 30px 20px 30px 0px;
+  padding-left: 15px;
+  height: 18%;
   width: 120%;
   background-image: url(./assets/cv/notboock_cafe_mesa1.jpg);
   font-weight: 500;
 }
 
+.about__title {
+  padding-top: 10px;
+}
+
 .assinatura {
-  color: #f5f5f5;
   font-weight: 500;
   height: 4rem;
   width: 8rem;
@@ -176,66 +206,83 @@ section.about {
   font-weight: 500;
 }
 
-/*Sessão Hobbies*/
+/* Sessão de Skills/Habilidades */
 
-section.hobbies {
+section.skills h3 {
+  display: flex;
+  padding: 15px 15px 15px 15px;
+}
+.skills__line {
+  display: inline-flex;
+  gap: 30%;
+}
+
+.skills__box {
+  margin-left: 50px;
+  padding: auto;
+  justify-content: space-between;
+}
+
+.skills__img_html {
+  padding-left: 10px;
+}
+
+.skills__img_javascript {
+  padding-left: 25px;
+}
+
+.skills__img_react {
+  padding-left: 12px;
+}
+
+.skills__img_css {
+  padding-right: 15px;
 }
 
 /* Experiência Acadêmica*/
 
-section.academic {
+#formacao {
+  display: flex;
+  padding: 15px 15px 15px 15px;
 }
 
-/* experiência*/
-
-section.experience {
+.academic__courses {
+  display: flex;
+  gap: 10%;
 }
 
-/*Contato*/
-
-section.formcontato {
+.academic__courses__box {
+  margin-left: 50px;
+  padding: auto;
+  justify-content: space-between;
 }
 
-/*footeer*/
-
-section.footer {
+.logo_uno {
+  width: 150px;
+  height: 120px;
+  padding-left: 10px;
 }
 
-/* Chegou a hora de se desafiar com a responsividade, 
-utilize como referência os breakpoints @media abaixo*/
-
-/*Tablet*/
-@media (min-width: 768px) {
-  /* Menu */
-
-  /*title*/
-
-  /*Skills*/
-
-  /*Hobbies*/
-
-  /*Experiências acadêmicas*/
-
-  /*Expeirência profissional*/
+.logo_uno1 {
+  width: 150px;
+  height: 120px;
+  padding-right: 30px;
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
-  /*Menu*/
+.logo_uno2 {
+  width: 150px;
+  height: 120px;
+  padding-left: 10px;
+}
 
-  /*Titulo*/
+#unopar_2020 {
+  padding-left: 20px;
+}
 
-  /*Sessão sobre*/
+#unopar_2023_data {
+  padding-left: 20px;
+}
 
-  /*Skills*/
-
-  /*Hobbies*/
-
-  /*Formação Acadêmica*/
-
-  /*Experiência Profissional*/
-
-  /*Contato*/
-
-  /*Footer*/
+#unopar_2020_emge {
+  padding-left: 20px;
 }
