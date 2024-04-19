@@ -14,6 +14,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 body {
   box-sizing: border-box;
+  background-image: url(./assets/cv/back_cv5.jpg);
   background-color: var(--cor-de-fundo);
   font-family: "Raleway";
   margin: 0;
@@ -39,9 +40,12 @@ section.menu {
 }
 header {
   display: flex;
-  margin-left: 0.5%;
+  margin-left: 0.3%;
   align-items: center;
   gap: 10px;
+}
+header h3 {
+  font-size: 1.5rem;
 }
 img {
   height: 30px;
@@ -49,14 +53,61 @@ img {
 }
 
 nav {
+  font-size: 1rem;
+  font-weight: 400;
   width: 70%;
 }
 nav .menu__list {
+  font-weight: 500;
   display: flex;
-  gap: 20px;
-  margin-left: 100px;
+  gap: 2rem;
+  margin-left: 10rem;
 }
 
+#skills_hover:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 900;
+  color: #eee8aa;
+  background: #040c52;
+  transition: background-color 3s ease;
+}
+
+#hobbies_hover:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 900;
+  color: #eee8aa;
+  background: #040c52;
+  transition: background-color 3s ease;
+}
+
+#formacao_hover:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 900;
+  color: #eee8aa;
+  background: #040c52;
+  transition: background-color 3s ease;
+}
+
+#xp_hover:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 900;
+  color: #eee8aa;
+  background: #040c52;
+  transition: background-color 3s ease;
+}
+
+#contato_hover:hover {
+  border-radius: 30%;
+  padding: 2px 0px 2px 0px;
+  font-weight: 900;
+  color: #e75e79;
+  background: #040c52;
+  transition: background-color 3s ease;
+}
 /*Sessão Title*/
 
 section .title {
@@ -65,41 +116,64 @@ section .title {
 }
 .title__profile {
   margin-top: 15px;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 420px;
   border-radius: 50%;
 }
 
 .title__profile {
   display: flex;
   float: right;
+  z-index: 1;
   margin-right: 110px;
+  margin-top: 2.3rem;
+  margin-bottom: 3rem;
 }
 
 .title__container {
-  margin-left: 50px;
+  margin: 20px 20px 20px 20px;
   width: 60%;
-  margin-bottom: 20px;
 }
 .title__container h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
+  padding-top: 15px;
 }
 
 .title__network__item img {
-  height: 15px;
-  width: 15px;
+  padding-right: 5px;
+  height: 12px;
+  width: 12px;
 }
 .title__network {
   display: flex;
   font-size: large;
   gap: 25%;
-  margin: 50px 0px 50px 0px;
+  margin: 30px;
 }
 
 /*Sessão About*/
 
 section.about {
+  margin: 50px 20px 30px 0px;
+  padding-left: 20px;
+  height: 22%;
+  width: 120%;
+  background-image: url(./assets/cv/notboock_cafe_mesa1.jpg);
+  font-weight: 500;
+}
+
+.assinatura {
+  color: #f5f5f5;
+  font-weight: 500;
+  height: 4rem;
+  width: 8rem;
+}
+
+.about__paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 500;
 }
 
 /*Sessão Hobbies*/
